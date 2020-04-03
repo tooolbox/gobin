@@ -3,18 +3,18 @@
 
 {{.Out.Doc}}
 
-See the [FAQ](https://github.com/myitcv/gobin/wiki/FAQ) for more details.
+See the [FAQ](https://github.com/tooolbox/gobin/wiki/FAQ) for more details.
 
 -->
 ### `gobin`
 
 The gobin command installs/runs main packages.
 
-See the [FAQ](https://github.com/myitcv/gobin/wiki/FAQ) for more details.
+See the [FAQ](https://github.com/tooolbox/gobin/wiki/FAQ) for more details.
 
 <!-- END -->
 
-<!-- __JSON: sh -c "go run github.com/myitcv/gobin -m -run myitcv.io/cmd/egrunner -df=-v=$DOLLAR{GOPATH%%:*}:/gopath -df=-v=${DOLLAR}PWD:/self .readme.sh" # LONG ONLINE
+<!-- __JSON: sh -c "go run github.com/tooolbox/gobin -m -run myitcv.io/cmd/egrunner -df=-v=$DOLLAR{GOPATH%%:*}:/gopath -df=-v=${DOLLAR}PWD:/self .readme.sh" # LONG ONLINE
 
 ### Installation
 
@@ -22,7 +22,7 @@ See the [FAQ](https://github.com/myitcv/gobin/wiki/FAQ) for more details.
 {{PrintBlock "get" -}}
 ```
 
-or download a binary from [the latest release](https://github.com/myitcv/gobin/releases).
+or download a binary from [the latest release](https://github.com/tooolbox/gobin/releases).
 
 Update your `PATH` and verify we can find `gobin` in our new `PATH`:
 
@@ -100,10 +100,10 @@ Generate and run as a "test":
 ### Installation
 
 ```
-$ GO111MODULE=off go get -u github.com/myitcv/gobin
+$ GO111MODULE=off go get -u github.com/tooolbox/gobin
 ```
 
-or download a binary from [the latest release](https://github.com/myitcv/gobin/releases).
+or download a binary from [the latest release](https://github.com/tooolbox/gobin/releases).
 
 Update your `PATH` and verify we can find `gobin` in our new `PATH`:
 

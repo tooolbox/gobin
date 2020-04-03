@@ -374,7 +374,7 @@ func mainerr() error {
 			// responsible for resolving versions. We therefore utilise the
 			// install step to effectively ensure the target binary is up to date.
 			// This logic would change if were to adopt
-			// https://github.com/myitcv/gobin/issues/81 because we would then
+			// https://github.com/tooolbox/gobin/issues/81 because we would then
 			// only install non-versioned module packages (i.e. non-main module,
 			// non-directory replaced), or in the case a versioned target does not
 			// exist in the gobin cache.
@@ -392,7 +392,7 @@ func mainerr() error {
 			if install {
 				// optimistically remove our target in case we are installing over self
 				// TODO work out what to do for Windows
-				if mp.ImportPath == "github.com/myitcv/gobin" {
+				if mp.ImportPath == "github.com/tooolbox/gobin" {
 					_ = os.Remove(target)
 				}
 				installCmd := goCommand("install")
@@ -446,7 +446,7 @@ func mainerr() error {
 
 				// optimistically remove our target in case we are installing over self
 				// TODO work out what to do for Windows
-				if mp.ImportPath == "github.com/myitcv/gobin" {
+				if mp.ImportPath == "github.com/tooolbox/gobin" {
 					_ = os.Remove(bin)
 					openMode = openMode | os.O_EXCL
 				}

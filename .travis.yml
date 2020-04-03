@@ -29,7 +29,7 @@ env:
     - GO111MODULE=on
     - GOPROXY=https://proxy.golang.org
 
-go_import_path: github.com/myitcv/gobin
+go_import_path: github.com/tooolbox/gobin
 
 # Add this before_install until we have a definitive resolution on
 # https://travis-ci.community/t/files-in-checkout-have-eol-changed-from-lf-to-crlf/349/2
@@ -62,7 +62,7 @@ script:
     # dependency on myitcv.io (https://github.com/golang/go/issues/29773); then we can work
     # out what Docker strategy we need/want
     #
-    # - go run github.com/myitcv/gobin -m -run myitcv.io/cmd/mdreplace -long -online -w README.md
+    # - go run github.com/tooolbox/gobin -m -run myitcv.io/cmd/mdreplace -long -online -w README.md
     # - gobin -m -run myitcv.io/cmd/mdreplace -w README.md
 
     # Go 1.13 fixed the sorting of vendor/modules.txt. However, this breaks our

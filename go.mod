@@ -1,4 +1,4 @@
-module github.com/myitcv/gobin
+module github.com/tooolbox/gobin
 
 require github.com/rogpeppe/go-internal v1.3.1
 

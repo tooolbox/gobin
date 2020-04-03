@@ -17,9 +17,9 @@ cd $WORK/repo
 # https://github.com/golang/go/issues/29773
 # exec go mod edit -replace=myitcv.io=$GOBINMODPATH
 
-exec gobin -m github.com/myitcv/gobin
+exec gobin -m github.com/tooolbox/gobin
 
 -- repo/go.mod --
 module mod
 
-require github.com/myitcv/gobin v0.0.0
+require github.com/tooolbox/gobin v0.0.0
